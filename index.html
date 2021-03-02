@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doguinho</title>
+        <link rel=stylesheet href="css/style.css"/>
+        <link rel="stylesheet" href="css/frame.css"/>
+
+    </head>
+
+    <script src="/javascript/arquivo.js"></script>
+    
+    <body>
+        <h1>Faça carinho no doguinho :)</h1>
+        <img id="dog-1" src="imagens/dog1.png" onmouseover="carinho('imagens/dog2.png')" onmouseout="carinho('imagens/dog1.png')" onclick="carinho('imagens/1.png')"/>
+        <h2>Coisas que o doguinho ama:</h2>
+
+        <map name="meumapa">
+            <area alt="piscininha" shape="circle" coords="894,248,209" href="arquivo.html#piscina" target="oframe">
+        </map>
+
+        <section id="imgs">
+            <img src="imagens/colagem1.png" id="colagens1" usemap="#meumapa">
+            <img src="imagens/colagem2.png" id="colagens2">    
+        </section>
+        
+           <section id="conteudo">
+            <iframe src="arquivo.html" name="oframe" id="meuframe"></iframe>
+          </section>
+      
+
+      
+        
+
+    </body>
+
+
+</html>

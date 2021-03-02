@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#dog-1 {
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+
+}
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+    text-indent: 20px;
+    margin-bottom: 800px;
+}
+
+
+
+
+

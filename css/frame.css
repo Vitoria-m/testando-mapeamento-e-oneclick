@@ -1,0 +1,31 @@
+
+#imgs {
+    text-align: center;
+}
+
+#colagens1 {
+    width: 700px;
+    display: inline;
+    margin-top: 20px;
+}
+
+#colagens2 {
+    width: 700px;
+    display: inline;
+    margin-top: 20px;
+}
+
+iframe#meuframe {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-top: -700px;
+    margin-right: 20px;
+    right: 30px;
+    border: none;  
+}
+ 
+
+
+
+  
